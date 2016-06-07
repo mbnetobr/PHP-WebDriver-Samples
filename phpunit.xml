@@ -1,0 +1,10 @@
+<phpunit bootstrap="bootstrap.php">
+	<testsuite>
+        <directory>./</directory>
+    </testsuite>
+    <php>
+        <env name="HUB_URL" value="localhost:4444/wd/hub" />
+        <env name="URL" value="https://github.com/search" />
+        <env name="BROWSER" value="firefox" />
+    </php>
+</phpunit>

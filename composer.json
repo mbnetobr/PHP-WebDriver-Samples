@@ -1,0 +1,12 @@
+{
+	"require-dev": {
+	"phpunit/phpunit": "5.4.*",
+	"facebook/webdriver": "dev-master"
+	},
+	
+	"autoload": {
+		"psr-4": {
+			"GH\\Tests\\": ["pages/", "test/"]
+		}
+	}
+}
